@@ -1,0 +1,144 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.nav__menu{
+    align-items: center;
+    color: var(--gray);
+    display: flex;
+}
+
+
+.nav__item{
+    margin-left: 1rem;
+    transition: all 0.3s linear;
+}
+
+.nav__item:hover{
+    color: var(--white);
+}
+
+.intro{
+    align-items: center;
+    background-image: url('../../images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro__img{
+    width: 40%;
+}
+
+.intro__texts{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__title{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+    width: 50%;
+}
+
+.intro__text{
+    color: var(--gray);
+    line-height: 1.5rem;
+    width: 50%;
+}
+
+.intro__button{
+    background: var(--blue);
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1rem 5rem;
+    transition: all 0.2s linear;
+}
+
+.intro__button:hover{
+    background: var(--cyan);
+}
+
+.points{
+    background: var(--dark-blue-2);
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.points__list{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+.point{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 1rem 0;
+}
+
+.point__title{
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.point__text{
+    color: var(--gray);
+    width: 50%;
+}
+
+.productive{
+    align-items: center;
+    background: var(--dark-blue-2);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.productive__img{
+    width: 40%;
+}
+
+.productive__texts{
+    padding-left: 3rem;
+    width: 40%;
+}
+
+.productive__title{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.productive__text{
+    color: var(--gray);
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.row__bottom{
+    align-items: center;
+    display: flex;
+}
+
+.productive__button{
+    color: var(--cyan);
+    cursor: pointer;
+    padding-right: 0.3rem;
+}
