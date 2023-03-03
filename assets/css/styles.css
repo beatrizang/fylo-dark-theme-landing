@@ -347,5 +347,16 @@
 .attribution{
     display: flex;
     text-align: center;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.attribution a{
+    color: var(--blue);
+    transition: all 0.3s linear;
+}
+
+.attribution a:hover{
+    color: var(--white);
 }
