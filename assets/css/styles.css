@@ -46,11 +46,11 @@
 
 @media screen and (max-width: 768px){
     .header{
-        margin: 3rem;
+        margin: 3rem 1rem;
     }
 
     .header__logo{
-        width: 120px;
+        width: 100px;
     }
 
 }
