@@ -1,0 +1,48 @@
+
+.points{
+    background: var(--dark-blue-2);
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.points__list{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+.point{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 1rem 0;
+}
+
+.point__title{
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.point__text{
+    color: var(--gray);
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .points__list{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .points__list{
+        display: flex;
+        flex-direction: column;
+    }
+}
