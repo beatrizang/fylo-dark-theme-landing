@@ -62,8 +62,8 @@
 
 @media screen and (max-width: 768px) {
     .promotion{
-        width: 600px;
-        transform: translate(100px, -150px);
+        width: 80%;
+        transform: translate(15%, -150px);
     }
     
     .promotion__text{
