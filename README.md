@@ -23,13 +23,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshots/dk1.png)
+![](./images/screenshots/dk2.png)
+![](./images/screenshots/mb.png)
 
 
 ### Links
 
 - Solution URL: 
-- Live Site URL:
+- Live Site URL: https://joyful-beijinho-279776.netlify.app/
 
 ## My process
 
@@ -44,6 +46,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - 
+- Frontend Mentor - https://www.frontendmentor.io/profile/beatrizang
 
 
